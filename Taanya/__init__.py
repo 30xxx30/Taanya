@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = TAANYA()
+app = SHUKLA()
 userbot = Userbot()
 api = SafoneAPI()
 
