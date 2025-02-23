@@ -1,4 +1,4 @@
-from Taanya.core.bot import Taanya
+from Taanya.core.bot import SHUKLA
 from Taanya.core.dir import dirr
 from Taanya.core.git import git
 from Taanya.core.userbot import Userbot
