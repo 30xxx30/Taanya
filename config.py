@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", 28294093))
+API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7528502838:AAHc92FN61lSwMfMrG14OrxjyYrdEGtTMr8")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","ll_hunter_lll")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "itz_m3_riya")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ksdigitaladsstudio:TEAMRIYAMUSIC84@cluster0.yyjyg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002212268046))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002333682568))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 8009369344))
+OWNER_ID = int(getenv("OWNER_ID", 8142003954))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGvu80ASX5--rugB37lpDZivGylnZaLfXwiO-yc3vz9Z1NX-6E0LrsULuaDpSzP81n_N1-BiTIVzclbjD_9ZRn-c_I2YMtyICFOdA5zMBctyHkpome-dL_g5A_hTmm7swPPOixEYtPTJYTbvAHfjp2Q0TYIVCX1G28yYdnA5DAPk1WwiyHBrWVbB-9JK2KC_3Ns7tBelg6q8p-XwPhBWTHqGwPWyFnIzVJTIfkedc_EQKcvnfaZ0PO62xGovfO-8bC---A10VoCUkwVhf270eVxCPzew2xdybuBGGyhbNBKVHSaHWXIY-5q3LuM0gfZEy3PodUbkHU5ATYAzMTE-sDizyFsaAAAAAHPJmoTAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
